@@ -1,0 +1,23 @@
+* {
+  box-sizing: border;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.profile {
+  height: 300px;
+  width: 300px;
+}
+
+.nav-item {
+  margin: 20;
+  padding: 20;
+}
