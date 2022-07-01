@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.row {
+  background-color: blue;
+  width: 100%;
+  border: 2px solid red;
+}
+
+.col {
+  background-color: blue;
+  width: 100%;
+  border: 2px solid green;
+}
