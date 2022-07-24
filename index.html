@@ -20,23 +20,21 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body> 
-    <div class="container">
-            <div class="row">
-        <div class="col-sm-2 col-md-4 col-lg-4">
-          <div class="card" style="width: 12rem">
+  <body>
+    <div class="container-fixed">
+      <div class="row">
+        <div class="col-sm-1 col-md-4 col-lg-3">
+          <div class="card">
             <img
               src="portfolio pic.jpeg"
-              width="150"
-              height="270"
-              class="card-img-top"
+              class="card-img-top img-fluid"
               alt="profile-pic"
             />
             <div class="card-body">
-              <p class="card-text"  align="center">Pallavi Gawai</p>
+              <p class="card-text" align="center">Pallavi Gawai</p>
             </div>
           </div>
-                    <div class="d-flex align-items-start">
+          <div class="d-flex align-items-start">
             <div
               class="nav flex-column nav-pills me-3"
               id="v-pills-tab"
@@ -44,7 +42,7 @@
               aria-orientation="vertical"
             >
               <button
-                class="nav-link active"
+                class="badge rounded-pill bg-secondary badge-text"
                 id="v-pills-home-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#nav-home"
@@ -56,7 +54,7 @@
                 Home
               </button>
               <button
-                class="nav-link"
+                class="badge rounded-pill bg-secondary badge-text"
                 id="v-pills-profile-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#nav-profile"
@@ -65,10 +63,10 @@
                 aria-controls="v-pills-profile"
                 aria-selected="false"
               >
-                Profile
+                Skills
               </button>
               <button
-                class="nav-link"
+                class="badge rounded-pill bg-secondary badge-text"
                 id="v-pills-messages-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#nav-contact"
@@ -82,7 +80,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-5 col-md-8 col-lg-8">
+        <div class="col-sm-4 col-md-6 col-lg-9">
           <div class="tab-content" id="nav-tabContent">
             <div
               class="tab-pane fade show active"
@@ -90,38 +88,31 @@
               role="tabpanel"
               aria-labelledby="nav-home-tab"
             >
-              <!-- <ul class="details">
-                <li Name : Pallavi Gawai></li>
-                <li Age : 27></li>
-                <li Qualification : Civil Engineer></li>
-                <li Languages Known : English , Hindi, Marathi></li>
-              </ul> -->
-              <section><h2  align="center">About <span style="color:hsla(29, 94%, 48%, 0.644)">Me</span></h2>
-                <hr></section>
+              <section>
+                <h2 align="center">
+                  About <span style="color: hsla(29, 94%, 48%, 0.644)">Me</span>
+                </h2>
+                <hr />
+              </section>
               <span class="details">
-                <p> Name : Pallavi Gawai</p> 
-                <p>Age : 27</p> 
-                <p>Qualification : Civil Engineer </p>
+                <p>Name : Pallavi Gawai</p>
+                <p>Gender : Female</p>
+                <p>Date of Birth : 1st May-95</p>
+                <p>Age : 27</p>
+                <p>Qualification : Civil Engineer</p>
+                <p>Nationality : Indian</p>
+                <p>Maritial Status : Married</p>
                 <p>Languages Known : English , Hindi, Marathi</p>
+                <p>
+                  Temporary Addresses : P no- A/1, 1 st Floor Kasturba Appt,
+                  Kasturba Layout Behind NIT Swimming Pool, North Ambazari Road
+                  Nagpur 440010.
+                </p>
+                <p>
+                  Permanent Addresses : Flat No- 2, Gore Appt, Shastri Nagar,
+                  Akola 444001
+                </p>
               </span>
-              
-              
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
-                culpa quidem error alias quos perferendis obcaecati eligendi
-                temporibus magni dolores, enim neque, dolore repudiandae numquam
-                qui est laborum ullam nulla hic, tempora provident consequatur
-                distinctio. Sequi nobis accusantium nihil eius necessitatibus
-                eaque, ea sunt repellendus, quia voluptate perferendis quidem
-                laudantium exercitationem et corporis est aspernatur iusto quasi
-                impedit. Voluptatum saepe dignissimos iste! Placeat nobis iusto
-                recusandae amet excepturi, adipisci ea modi officia! Sunt
-                excepturi nihil magni dolor esse voluptate aspernatur rem hic
-                officiis? Aliquam eveniet quaerat, nemo molestiae earum fuga
-                placeat aperiam ipsam, exercitationem architecto tempora unde
-                natus omnis aliquid porro! Excepturi odit voluptate natus illum
-                enim, aspernatur et officiis autem iusto eligendi ipsa
-                voluptates sint porro eos harum adipisci.
-              </p>
             </div>
             <div
               class="tab-pane fade"
@@ -129,35 +120,91 @@
               role="tabpanel"
               aria-labelledby="nav-profile-tab"
             >
-            <section><h2  align="center"> <span style="color:hsla(29, 94%, 48%, 0.644)">Contact</span> Me</h2>
-              <hr></section>
+              <section>
+                <h2 align="center">
+                  <span style="color: hsla(29, 94%, 48%, 0.644)">Skills</span>
+                </h2>
+                <hr />
+              </section>
+              <p>TECHNICAL RELATED</p>
+              <button class="btn btn-secondary" type="submit">
+                JavaScript
+              </button>
+              <input class="btn btn-secondary" type="button" value="HTML" />
+              <input class="btn btn-secondary" type="submit" value="CSS" />
+              <input class="btn btn-secondary" type="reset" value="Git" />
+              <input class="btn btn-secondary" type="reset" value="Auto-Cad" />
+              <p>HOBBIES</p>
+              <input class="btn btn-secondary" type="reset" value="Badminton" />
+              <input class="btn btn-secondary" type="reset" value="Cooking" />
+              <input
+                class="btn btn-secondary"
+                type="reset"
+                value="Martial Arts"
+              />
+              <input class="btn btn-secondary" type="reset" value="Trekking" />
             </div>
             <div
               class="tab-pane fade"
               id="nav-contact"
               role="tabpanel"
               aria-labelledby="nav-contact-tab"
-            ><section><h2  align="center">My <span style="color:hsla(29, 94%, 48%, 0.644)">Education</span></h2>
-              <hr></section>
-              <div class="row" >
-                
-                <div class="col-lg-4" > hello im a column Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eum asperiores aperiam qui recusandae ab iste quisquam maiores! Vero, sunt?
-                 </div>
-                <div class="col-lg-4"> hello im a column Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde provident error rerum eaque iure expedita corrupti perspiciatis amet quia odit.</div>
-                <div class="col-lg-4"> hello im a column Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consequatur optio accusantium dolore quasi necessitatibus suscipit excepturi veniam repellat at.</div>
-              </div>
-              <div class="row" >
-                <div class="col-lg-4"> hello im a column Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi cupiditate molestiae dolor blanditiis inventore illo tempora quas odit repellendus enim.
-                 </div>
-                <div class="col-lg-4"> hello im a column Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et delectus error quos quis ea modi sint autem natus rem architecto.   </div>
-                <div class="col-lg-4"> hello im a column Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus quaerat esse neque explicabo, aliquam rem vero corrupti provident dolor illum. </div>
-              </div>
-                
-              </div>
-                </div>
+            >
+              <section>
+                <h2 align="center">
+                  My
+                  <span style="color: hsla(29, 94%, 48%, 0.644)"
+                    >Education</span
+                  >
+                </h2>
+                <hr />
+              </section>
+              <table class="table table-dark">
+                <thead>
+                  <tr>
+                    <th>Qualification</th>
+                    <th>School/College</th>
+                    <th>University</th>
+                    <th>Year of Passing</th>
+                    <th>Marks obtained</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>SSC</td>
+                    <td>R.J.Thakur</td>
+                    <td>Maharashtra State Board</td>
+                    <td>2010</td>
+                    <td>74%</td>
+                  </tr>
+                  <tr>
+                    <td>Diploma (Civil Engineering)</td>
+                    <td>G.V.Acharya Polytechnic</td>
+                    <td>MSBTE</td>
+                    <td>2014</td>
+                    <td>69%</td>
+                  </tr>
+                  <tr>
+                    <td>Degree( Civil Engineer) Direct 2nd Year</td>
+                    <td>B.R.Harne Engineering & technology</td>
+                    <td>Mumbai</td>
+                    <td>2017</td>
+                    <td>62%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
+      <footer class="bg-light text-center text-lg-start footer-position">
+        <div class="text-center p-3" style="background-color: rgb(52, 50, 51)">
+          © 2022 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/"
+            >MDBootstrap.com</a
+          >
+        </div>
+      </footer>
     </div>
   </body>
 </html>
