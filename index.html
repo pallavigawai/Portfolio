@@ -20,15 +20,18 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
-    <div class="container-fixed">
+    <div
+      class="container-fixed min-vh-100 d-flex flex-column justify-content-between"
+    >
       <div class="row">
-        <div class="col-sm-1 col-md-4 col-lg-3">
-          <div class="card">
+        <div class="col-sm-3 col-md-5 col-lg-3 vertical-divider">
+          <div class="card" style="width: 15rem">
             <img
-              src="portfolio pic.jpeg"
+              src="profile-pic.jpeg "
               class="card-img-top img-fluid"
-              alt="profile-pic"
+              alt="portfolio-image"
             />
             <div class="card-body">
               <p class="card-text" align="center">Pallavi Gawai</p>
@@ -42,7 +45,7 @@
               aria-orientation="vertical"
             >
               <button
-                class="badge rounded-pill bg-secondary badge-text"
+                class="badge rounded-pill dark-grey badge-text"
                 id="v-pills-home-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#nav-home"
@@ -54,7 +57,7 @@
                 Home
               </button>
               <button
-                class="badge rounded-pill bg-secondary badge-text"
+                class="badge rounded-pill dark-grey badge-text"
                 id="v-pills-profile-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#nav-profile"
@@ -66,7 +69,7 @@
                 Skills
               </button>
               <button
-                class="badge rounded-pill bg-secondary badge-text"
+                class="badge rounded-pill dark-grey badge-text"
                 id="v-pills-messages-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#nav-contact"
@@ -80,7 +83,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4 col-md-6 col-lg-9">
+        <div class="col-sm-9 col-md-7 col-lg-9">
           <div class="tab-content" id="nav-tabContent">
             <div
               class="tab-pane fade show active"
@@ -127,22 +130,18 @@
                 <hr />
               </section>
               <p>TECHNICAL RELATED</p>
-              <button class="btn btn-secondary" type="submit">
+              <button class="badge rounded-pill btn btn-dark" type="submit">
                 JavaScript
               </button>
-              <input class="btn btn-secondary" type="button" value="HTML" />
-              <input class="btn btn-secondary" type="submit" value="CSS" />
-              <input class="btn btn-secondary" type="reset" value="Git" />
-              <input class="btn btn-secondary" type="reset" value="Auto-Cad" />
+              <input class="btn btn-dark" type="button" value="HTML" />
+              <input class="btn btn-dark" type="submit" value="CSS" />
+              <input class="btn btn-dark" type="reset" value="Git" />
+              <input class="btn btn-dark" type="reset" value="Auto-Cad" />
               <p>HOBBIES</p>
-              <input class="btn btn-secondary" type="reset" value="Badminton" />
-              <input class="btn btn-secondary" type="reset" value="Cooking" />
-              <input
-                class="btn btn-secondary"
-                type="reset"
-                value="Martial Arts"
-              />
-              <input class="btn btn-secondary" type="reset" value="Trekking" />
+              <input class="btn btn-dark" type="reset" value="Badminton" />
+              <input class="btn btn-dark" type="reset" value="Cooking" />
+
+              <input class="btn btn-dark" type="reset" value="Trekking" />
             </div>
             <div
               class="tab-pane fade"
@@ -197,10 +196,13 @@
           </div>
         </div>
       </div>
-      <footer class="bg-light text-center text-lg-start footer-position">
-        <div class="text-center p-3" style="background-color: rgb(52, 50, 51)">
-          © 2022 Copyright:
-          <a class="text-dark" href="https://mdbootstrap.com/"
+      <footer class="bg-dark text-center text-white footer-pose">
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/"
             >MDBootstrap.com</a
           >
         </div>

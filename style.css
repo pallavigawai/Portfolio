@@ -10,6 +10,7 @@ body {
   justify-content: center;
   background-color: black !important;
   max-width: 100%;
+  min-height: 100%;
   color: white !important;
 }
 
@@ -28,16 +29,15 @@ body {
   padding-top: 10px;
 }
 
-.container {
+.container-fixed {
   background-color: black;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
 }
 
 .nav-link {
   margin-top: 25px;
-}
-.col-9 {
-  border-style: 5px;
-  color: yellow;
 }
 .card {
   background-color: black !important;
@@ -63,17 +63,32 @@ body {
   margin-bottom: 25px;
 }
 
-.badge {
+/* .badge {
   height: 40px;
   width: 235px;
   margin-top: 15px;
   margin-bottom: 15px;
-}
+  background-color: rgb(52, 50, 51) !important;
+} */
 .badge-text {
   font-size: 1rem !important;
 }
 
-.footer-position {
-  position: absolute;
+/* .footer-pose {
   bottom: 0%;
+  
+} */
+.dark-grey {
+  background-color: rgb(52, 50, 51);
+  height: 40px;
+  width: 235px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgb(52, 50, 51) !important;
+}
+.vertical-divider {
+  border-right: 2px solid rgb(52, 50, 51);
+}
+.off-white {
+  background-color: rgb(227, 211, 211);
 }
