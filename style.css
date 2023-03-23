@@ -88,7 +88,15 @@ body {
 }
 .vertical-divider {
   border-right: 2px solid rgb(52, 50, 51);
+  justify-content: space-evenly;
 }
 .off-white {
   background-color: rgb(227, 211, 211);
+}
+.social-icons {
+  margin-left: 70px;
+  padding: 100px;
+}
+.experience {
+  margin-top: 70px;
 }

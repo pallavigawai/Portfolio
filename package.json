@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html"
+   
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/pallavigawai/pallavi_portfolio/issues"
   },
-  "homepage": "https://github.com/pallavigawai/pallavi_portfolio#readme"
+  "homepage": "https://github.com/pallavigawai/pallavi_portfolio#readme",
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
 }
