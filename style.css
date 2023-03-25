@@ -22,6 +22,7 @@ body {
   width: 100%;
   height: 100%;
 }
+
 .card-text {
   color: white;
 }
@@ -43,17 +44,6 @@ body {
   background-color: black !important;
 }
 
-/* .col-lg-3 {
-  border: 5px solid white;
-  width: 33%;
-  background-color: rgb(52, 50, 51);
-  align-content: center;
-} */
-
-/* .align-items-start {
-  margin-left: 10px;
-} */
-
 .btn {
   display: block;
   height: 50px;
@@ -63,21 +53,10 @@ body {
   margin-bottom: 25px;
 }
 
-/* .badge {
-  height: 40px;
-  width: 235px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  background-color: rgb(52, 50, 51) !important;
-} */
 .badge-text {
   font-size: 1rem !important;
 }
 
-/* .footer-pose {
-  bottom: 0%;
-  
-} */
 .dark-grey {
   background-color: rgb(52, 50, 51);
   height: 40px;
@@ -88,15 +67,18 @@ body {
 }
 .vertical-divider {
   border-right: 2px solid rgb(52, 50, 51);
-  justify-content: space-evenly;
 }
 .off-white {
   background-color: rgb(227, 211, 211);
 }
 .social-icons {
   margin-left: 70px;
-  padding: 100px;
+  padding: 30px;
 }
 .experience {
   margin-top: 70px;
+}
+
+/* For responsive website */
+@media screen and (max-width: 600px) {
 }
